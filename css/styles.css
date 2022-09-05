@@ -1,0 +1,217 @@
+:root{
+    --secondary-text-color:#212121;
+    --accent-color: #2196F3;
+    --primary-text-color:#757575;
+    --primary-white-color:#FFFFFF;
+
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* header */
+
+   
+body{
+    font-family:"Roboto Regular", sans-serif;
+    font-weight: 500;
+
+}
+.Web{
+    color:var(--accent-color);
+}
+.Studio1{
+   color: #000000
+}
+.header-logo{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.header-link{
+    font-family: "Roboto Medium",sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-color)
+}
+ .primari{
+    color: var(--accent-color)
+ }
+ .secondary{
+    color: var(--secondary-text-color);
+ }
+.header-contact{
+    color:var(--primary-text-color);
+    font-family: "Roboto Medium",sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+}
+/* main */
+/* Hero sectin */
+.hero{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;  
+}
+
+.hero-title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--primary-white-color);
+}
+
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Benefits */
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.section-title{
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--secondary-text-color);
+
+}
+.section-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+/* our team */
+.team{
+
+    background: #F5F4FA;
+}
+.title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
+}
+.team-name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.team-position{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* footer */
+
+.studio-second{
+    color: var(--primary-white-color);
+}
+.footer{
+    background-color: #2F303A; 
+}
+/* contact */
+.footer-address{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+.footer-mail-tel{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+/* portfolio */
+/* filtr wirk */
+.button-portfolio{
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.button-primary{
+    color:var(--primary-white-color);
+    background-color:var(--accent-color)
+  
+}
+.button-secondary{
+    color: var(--secondary-text-color);
+    background-color: #F5F4FA;
+}
+/* portfolio */
+.name-portfolio{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.about-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+
+}
