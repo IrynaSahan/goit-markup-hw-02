@@ -189,12 +189,18 @@ body{
 }
 .button-primary{
     color:var(--primary-white-color);
-    background-color:var(--accent-color)
+    background-color:var(--accent-color);
   
 }
 .button-secondary{
     color: var(--secondary-text-color);
     background-color: #F5F4FA;
+
+}
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 /* portfolio */
 .name-portfolio{
