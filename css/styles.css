@@ -79,12 +79,16 @@ body{
 }
 
 .button{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
 }
 
 
@@ -182,19 +186,30 @@ body{
 }
 /* portfolio */
 /* filtr wirk */
-.button-portfolio{
+/* .button-portfolio{
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    font-family: "Roboto";
+    font-weight: 500;
+} */
+.button-primary{
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
 }
-.button-primary{
-    color:var(--primary-white-color);
-    background-color:var(--accent-color);
-  
-}
 .button-secondary{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     color: var(--secondary-text-color);
     background-color: #F5F4FA;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 
 }
 .button-secondary:hover,
@@ -213,7 +228,7 @@ body{
 }
 
 .about-text{
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
